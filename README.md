@@ -9,7 +9,7 @@ This repository demonstrates how to install, configure, and use MDX. This reposi
 
 ## 💫 Live Example Site
 
-This example site can be seen live at [https://determined-poitras-cc2fcb.netlify.com/](https://determined-poitras-cc2fcb.netlify.com/).
+This example site can be seen live at [http://egghead-using-mdx.surge.sh/](http://egghead-using-mdx.surge.sh/).
 
 ## 🔧 Running locally
 
