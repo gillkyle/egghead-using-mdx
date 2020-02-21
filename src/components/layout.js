@@ -1,17 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { MDXProvider } from "@mdx-js/react"
 
 import "./layout.css"
 import Header from "./header"
-import Form from "./form.js"
-import { Message, Divider } from "theme-ui"
-
-const shortcodes = { Message, Divider, Form }
 
 const Layout = ({ children }) => {
   return (
-    <MDXProvider components={shortcodes}>
+    <>
       <Header />
       <div
         style={{
@@ -22,7 +17,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
-    </MDXProvider>
+    </>
   )
 }
 
