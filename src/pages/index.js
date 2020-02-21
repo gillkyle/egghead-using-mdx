@@ -5,10 +5,13 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/my-first-post/">Go to the MDX page</Link>
+    <div
+      style={{ display: `flex`, flexDirection: `column`, alignItems: `center` }}
+    >
+      <img alt="Egghead + MDX" src="./mdx-and-egghead.png" />
+      <p>Simple examples for using MDX.</p>
+      <Link to="/my-first-post/">Go to the MDX page</Link>
+    </div>
   </Layout>
 )
 

@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Egghead Using MDX`,
+    title: `Using MDX`,
     description: `Using MDX in a Gatsby site`,
     author: `@gillkyle`,
   },
   plugins: [
+    `gatsby-plugin-theme-ui`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -13,6 +14,5 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-theme-ui`,
   ],
 }

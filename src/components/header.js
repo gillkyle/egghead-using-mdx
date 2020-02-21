@@ -2,11 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#eaf5ff`,
       marginBottom: `1.45rem`,
+      textAlign: `center`,
+      letterSpacing: 5,
+      textTransform: `uppercase`,
     }}
   >
     <div
@@ -20,11 +23,11 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#09335d`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Using MDX
         </Link>
       </h1>
     </div>
